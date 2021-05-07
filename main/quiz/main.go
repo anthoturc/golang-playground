@@ -1,9 +1,6 @@
 package main
 
-import (
-	"flag"
-	"github.com/anthoturc/golang-playground/main/quiz"
-)
+import "flag"
 
 func main() {
 
@@ -11,6 +8,6 @@ func main() {
 	duration := flag.Int("duration", 30, "The duration of the quiz.")
 	flag.Parse()
 
-	quiz.RunTimedQuiz(*csvFileName, *duration)
+	RunTimedQuiz(*csvFileName, *duration)
 
 }

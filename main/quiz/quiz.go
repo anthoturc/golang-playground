@@ -1,4 +1,4 @@
-package quiz
+package main
 
 import (
 	"encoding/csv"
